@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 const CardElement = () => {
   return (
-    <Card className="col-md-2.5 m-3">
-      <Card.Img variant="top" src="https://picsum.photos/500/325" />
+    <Card className="w-25 mx-auto m-3">
+      <Card.Img className="img-thumbnail" variant="top" src="https://picsum.photos/500/325" />
       <Card.Body>
         <Card.Title className="d-flex justify-content-center">Card Title</Card.Title>
         <Card.Text className="text-center">
